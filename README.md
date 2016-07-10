@@ -2,6 +2,12 @@
 
 A Centos based docker container running GlusterFS daemon.
 
+# Versions
+
+- latest -> 3.8
+- 3.7
+- 3.6
+
 # Usage
 
 There you'll find several methods to launch GlusterFS with docker. The "docker-compose" method is nice to make some tests. Host method is nice to be used on real servers. 
