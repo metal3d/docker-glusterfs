@@ -30,7 +30,7 @@ When you're ready (having at least 2 containers running on 2 hosts), you can acc
 ```bash
 # on node1.tld
 $ docker exec -it glusterfs bash
-/# gluster peer proble node2.tld
+/# gluster peer probe node2.tld
 /# gluster create volume gv0 replica 2 transport tcp node1.tld:/data/brick1 node2.tld:/data/brick1 force
 /# gluster volume start gv0
 /# exit
