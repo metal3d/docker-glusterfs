@@ -20,7 +20,7 @@ On each server, you may launch:
 docker run --net host --privileged --name glusterfs -v /hostdata:/data  metal3d/glusterfs
 ```
 
-Take a look at "`-v`" options that mount your "/hostdata" directory inside the container as "/data". 
+Take a look at "`-v`" options that mounts your "/hostdata" directory inside the container as "/data". 
 When you will create volumes and bricks, **you'll need to use the "container" path**. 
 
 Note the "`--net host`" usage that will open glusterfs ports to be accessible by other nodes. 
