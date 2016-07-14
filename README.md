@@ -4,9 +4,10 @@ A Centos based docker container running GlusterFS daemon.
 
 # Versions
 
-- latest -> 3.8
-- 3.7
-- 3.6
+- latest -> 3.8.1
+- 3.8
+- 3.7, 3.7.1
+- 3.6, 3.6.1
 
 # Usage
 
